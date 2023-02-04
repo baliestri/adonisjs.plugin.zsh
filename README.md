@@ -9,3 +9,45 @@
 </p>
 
 Plugin for skipping the `node` part from the `ace` command.
+
+## Preview
+
+![](.github/assets/preview.gif)
+
+## Installation
+
+### Using Oh-My-Zsh
+
+```bash
+git clone https://github.com/baliestri/adonisjs.plugin.zsh.git $ZSH_CUSTOM/plugins/adonisjs.plugin.zsh
+```
+
+```bash
+~/.zshrc
+plugins=(... adonisjs)
+```
+
+### Using Zinit
+
+```bash
+zinit light baliestri/adonisjs.plugin.zsh
+```
+
+### Using Zi
+
+```bash
+zi light baliestri/adonisjs.plugin.zsh
+```
+
+### Using Zgenom
+
+```bash
+zgenom load baliestri/adonisjs.plugin.zsh
+```
+
+## Usage
+
+```bash
+cd /path/to/adonisjs/project # or subdirectory
+ace # instead of node ace
+```
