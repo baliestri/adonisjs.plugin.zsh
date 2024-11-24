@@ -19,7 +19,7 @@ Plugin for skipping the `node` part from the `ace` command.
 ### Using Oh-My-Zsh
 
 ```bash
-git clone https://github.com/baliestri/adonisjs.plugin.zsh.git $ZSH_CUSTOM/plugins/adonisjs.plugin.zsh
+git clone https://github.com/baliestri/adonisjs.plugin.zsh.git $ZSH_CUSTOM/plugins/adonisjs
 ```
 
 ```bash
