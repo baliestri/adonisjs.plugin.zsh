@@ -8,7 +8,7 @@
   </a>
 </p>
 
-Plugin for skipping the `node` part from the `ace` command.
+Plugin for skipping the `node` part from the `ace` command. Supports AdonisJS v5 and v6.
 
 ## Preview
 
@@ -16,38 +16,48 @@ Plugin for skipping the `node` part from the `ace` command.
 
 ## Installation
 
-### Using Oh-My-Zsh
+#### [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 
-```bash
-git clone https://github.com/baliestri/adonisjs.plugin.zsh.git $ZSH_CUSTOM/plugins/adonisjs
+```shell
+git clone https://github.com/empresslabs/adonisjs.plugin.zsh.git $ZSH_CUSTOM/plugins/adonisjs
 ```
 
-```bash
+```shell
 ~/.zshrc
 plugins=(... adonisjs)
 ```
 
-### Using Zinit
+#### [zinit](https://github.com/zdharma-continuum/zinit)
 
-```bash
-zinit light baliestri/adonisjs.plugin.zsh
+```shell
+zinit light empresslabs/adonisjs.plugin.zsh
 ```
 
-### Using Zi
+#### [zi](https://github.com/z-shell/zi)
 
-```bash
-zi light baliestri/adonisjs.plugin.zsh
+```shell
+zi light empresslabs/adonisjs.plugin.zsh
 ```
 
-### Using Zgenom
+#### [zgenom](https://github.com/jandamm/zgenom)
 
-```bash
-zgenom load baliestri/adonisjs.plugin.zsh
+```shell
+zgenom load empresslabs/adonisjs.plugin.zsh
+```
+
+#### [zplug](https://github.com/zplug/zplug)
+
+```shell
+zplug empresslabs/adonisjs.plugin.zsh
 ```
 
 ## Usage
 
-```bash
-cd /path/to/adonisjs/project # or subdirectory
+```shell
+cd /path/to/adonisjs/project # or adonis subdirectory
 ace # instead of node ace
 ```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
