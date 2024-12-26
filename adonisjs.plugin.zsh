@@ -3,7 +3,7 @@ function __find_adonisjs_root() {
   local adonisjs_path=""
 
   until [[ "${current_path}" -ef "/" ]]; do
-    if [[ -f "${current_path}/ace" ]] && [[ -f "${current_path}/.adonisrc.json" ]]; then
+    if ([[ -f "${current_path}/ace" ]] || [[ -f "${current_path}/ace.js" ]]) && ([[ -f "${current_path}/adonisrc.ts" ]] || [[ -f "${current_path}/.adonisrc.json" ]]); then
       adonisjs_path="${current_path}"
       break
     fi
